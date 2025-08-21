@@ -49,18 +49,18 @@ export default function Home() {
        alt: "Luxury perfume background 3"
      },
      {
-      src:"./images/image01.jpg",
+      src:"./images/image01.JPG",
        alt: "Luxury perfume background 4"
      },
      {
-      src:"./images/image02.jpg",
+      src:"./images/image02.JPG",
        alt: "Luxury perfume background 5"
      },{
-      src:"./images/img.jpg",
+      src:"./images/img.JPG",
        alt: "Luxury perfume background 6"
      },
      {
-      src:"./images/img2.jpg",
+      src:"./images/img2.JPG",
        alt: "Luxury perfume background 7"
      },
      
