@@ -11,7 +11,7 @@ export function RoyalHeader() {
           <Link href="/" className="flex items-center space-x-4">
             <div className="relative">
               <Image
-                src="/images/house-of-ozo-logo.png"
+                src="/images/logo.png"
                 alt="House of Ozo"
                 width={40}
                 height={40}
@@ -75,7 +75,7 @@ export function RoyalFooter() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-4 mb-6">
               <Image
-                src="/images/house-of-ozo-logo.png"
+                src="/images/logo.png"
                 alt="House of Ozo"
                 width={32}
                 height={32}
