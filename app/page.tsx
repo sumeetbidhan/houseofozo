@@ -38,14 +38,14 @@ export default function Home() {
   const heroImages = [
     
     {
-      src:"/images/02.jpg",
+      src:"./images/02.jpg",
        alt: "Luxury perfume background 1"
      },{
-      src:"/images/edited01.png",
+      src:"./images/edited01.png",
        alt: "Luxury perfume background 2"
      },
      {
-      src:"/images/01.jpg",
+      src:"./images/01.jpg",
        alt: "Luxury perfume background 3"
      },
      {
