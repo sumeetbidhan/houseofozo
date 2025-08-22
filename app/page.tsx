@@ -36,11 +36,11 @@ export default function Home() {
   ])
 
   const heroImages = [
-    
     {
       src:"./images/02.jpg",
        alt: "Luxury perfume background 1"
-     },{
+     },
+     {
       src:"./images/edited01.png",
        alt: "Luxury perfume background 1"
      },
@@ -55,21 +55,15 @@ export default function Home() {
      {
       src:"./images/image02.jpg",
        alt: "Luxury perfume background 1"
-     },{
+     },
+     {
       src:"./images/img.jpg",
        alt: "Luxury perfume background 1"
      },
      {
       src:"./images/img2.jpg",
        alt: "Luxury perfume background 1"
-     },
-     
-     
-     
-     
-     
-     
-
+     }
   ]
 
   // Auto-advance slideshow
@@ -143,12 +137,12 @@ export default function Home() {
         
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-light mb-6 italic tracking-wide">
+          <h1 className="text-heading font-heading text-white mb-6 italic tracking-wide">
             A gift from a memory returns,
             <br />
             It was always meant to find you
           </h1>
-          <p className="text-xl md:text-2xl font-light text-white/90 mb-8 italic tracking-wide">
+          <p className="text-body font-body text-white/90 mb-8 italic tracking-wide">
             A trace of the familiar. A touch of the unknown.
           </p>
           <Button size="lg" className="bg-[#ffda5a] hover:bg-[#ffda5a]/90 text-gray-900 px-12 py-4 text-lg font-medium tracking-wide transition-all duration-300 rounded-full shadow-xl border-2 border-[#ffda5a]/20 hover:border-[#ffda5a]/40 hover:scale-105">
@@ -189,7 +183,7 @@ export default function Home() {
       {/* Products Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-serif text-center text-violet-800 mb-16 italic tracking-wide" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+          <h2 className="text-subheading font-subheading text-center text-violet-800 mb-16 italic tracking-wide">
             Explore our scented world
           </h2>
           
@@ -228,9 +222,9 @@ export default function Home() {
             </div>
                 </div>
                 </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">HOJAI</h3>
-              <p className="text-gray-600 text-sm mb-2">Adbhuta (Wonder)</p>
-              <p className="text-gray-500 text-xs mb-3">Eau de Parfum</p>
+              <h3 className="text-body font-subheading text-gray-900 mb-2">HOJAI</h3>
+              <p className="text-body font-body text-gray-600 mb-2">Adbhuta (Wonder)</p>
+              <p className="text-sm font-body text-gray-500 mb-3">Eau de Parfum</p>
               <div className="flex items-center justify-center mb-3">
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
@@ -239,7 +233,7 @@ export default function Home() {
               </div>
                 <span className="text-gray-600 text-xs ml-2">(5.0)</span>
               </div>
-              <p className="text-lg font-serif text-gray-900 mb-3">₹180</p>
+              <p className="text-body font-body text-gray-900 mb-3">₹180</p>
               <div className="text-xs text-gray-600 space-y-1">
                 <p><span className="font-medium">Top:</span> Pink Pepper, Bergamot</p>
                 <p><span className="font-medium">Heart:</span> Oud, Rose, Saffron</p>
@@ -281,9 +275,9 @@ export default function Home() {
             </div>
                 </div>
                 </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">MOTI</h3>
-              <p className="text-gray-600 text-sm mb-2">Śṛṅgāra (Love & Desire)</p>
-              <p className="text-gray-500 text-xs mb-3">Eau de Parfum</p>
+              <h3 className="text-body font-subheading text-gray-900 mb-2">MOTI</h3>
+              <p className="text-body font-body text-gray-600 mb-2">Śṛṅgāra (Love & Desire)</p>
+              <p className="text-sm font-body text-gray-500 mb-3">Eau de Parfum</p>
               <div className="flex items-center justify-center mb-3">
                 <div className="flex space-x-1">
                   {[...Array(4)].map((_, i) => (
@@ -293,7 +287,7 @@ export default function Home() {
               </div>
                 <span className="text-gray-600 text-xs ml-2">(4.0)</span>
               </div>
-              <p className="text-lg font-serif text-gray-900 mb-3">₹180</p>
+              <p className="text-body font-body text-gray-900 mb-3">₹180</p>
               <div className="text-xs text-gray-600 space-y-1">
                 <p><span className="font-medium">Top:</span> Pink Pepper, Bergamot, Lychee</p>
                 <p><span className="font-medium">Heart:</span> Jasmine, Rose, Tuberose</p>
@@ -340,9 +334,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-xl font-serif text-gray-900 mb-2">NEEL</h3>
-              <p className="text-gray-600 text-sm mb-2">Vīra (Courage)</p>
-              <p className="text-gray-500 text-xs mb-3">Eau de Parfum</p>
+              <h3 className="text-body font-subheading text-gray-900 mb-2">NEEL</h3>
+                              <p className="text-body font-body text-gray-600 mb-2">Vīra (Courage)</p>
+                <p className="text-sm font-body text-gray-500 mb-3">Eau de Parfum</p>
               <div className="flex items-center justify-center mb-3">
                 <div className="flex items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
@@ -351,7 +345,7 @@ export default function Home() {
                 </div>
                 <span className="text-gray-600 text-xs ml-2">(5.0)</span>
               </div>
-              <p className="text-lg font-serif text-gray-900 mb-3">₹180</p>
+              <p className="text-body font-body text-gray-900 mb-3">₹180</p>
               <div className="text-xs text-gray-600 space-y-1">
                 <p><span className="font-medium">Top:</span> Bergamot, Black Pepper, Grapefruit</p>
                 <p><span className="font-medium">Heart:</span> Lavender, Geranium, Aquatic Accord</p>
@@ -425,17 +419,17 @@ export default function Home() {
               </div>
               
               {/* Text Content */}
-              <h2 className="text-5xl text-violet-800 mb-6 italic tracking-wide -mt-2" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+              <h2 className="text-heading font-heading text-violet-800 mb-6 italic tracking-wide -mt-2">
                 Navarasa Collection
               </h2>
-              <h3 className="text-2xl font-serif font-bold text-[#847a69] mb-8 italic tracking-wide">
+              <h3 className="text-subheading font-subheading text-[#847a69] mb-8 italic tracking-wide">
                 Nine Emotions. Five Fragrances. Infinite experience
               </h3>
               <div className="max-w-4xl mx-auto">
-                <p className="text-gray-700 text-lg leading-relaxed mb-6 italic tracking-wide font-serif">
+                <p className="text-body font-body text-gray-700 leading-relaxed mb-6 italic tracking-wide">
                   Capturing moments of love, wonder, courage, joy, and longing, the Navarasa Collection by House of Ozo is a sensory journey through the emotional landscape of India distilled into five fragrances.
                 </p>
-                <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
+                <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
                   Crafted with premium Indian raw materials, composed in layers that unfold like a story, holding the promise of belonging for the unbound spirit. A smoky oud that swirls mystery into a soft jasmine that blooms with you for all the adventures you brave, each creation invites you to step into a world where the best of you thrives, abundantly.
                 </p>
               </div>
@@ -444,7 +438,7 @@ export default function Home() {
           
           {/* Royal Collection Header */}
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-serif text-violet-800 mb-6 italic tracking-wide" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+            <h2 className="text-heading font-heading text-violet-800 mb-6 italic tracking-wide">
             Our Navarasa Collection
           </h2>
           </div>
@@ -456,25 +450,25 @@ export default function Home() {
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                   <div className="space-y-8">
                 <div>
-                      <h3 className="text-5xl font-serif text-amber-800 mb-3" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>HOJAI</h3>
-                      <p className="text-xl text-amber-600 italic">Adbhuta (Wonder)</p>
+                      <h3 className="text-heading font-heading text-amber-800 mb-3">HOJAI</h3>
+                      <p className="text-body font-body text-amber-600 italic">Adbhuta (Wonder)</p>
                     </div>
                     
-                    <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
+                    <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
                       Hojai captures the essence of surprise and discovery—the moment when everything shifts, and something ordinary becomes extraordinary. Deep, smoky oud and amber blend with the warmth of saffron and pink pepper, evoking the thrill of finding beauty in unexpected places.
                     </p>
                     
                     <div className="grid grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-amber-200">
-                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-serif">TOP</h4>
+                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-body">TOP</h4>
                         <p className="text-gray-600 text-xs">Pink Pepper<br/>Bergamot</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-amber-200">
-                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-serif">HEART</h4>
+                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-body">HEART</h4>
                         <p className="text-gray-600 text-xs">Oud, Rose<br/>Saffron</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-amber-200">
-                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-serif">BASE</h4>
+                        <h4 className="font-bold text-amber-800 text-sm mb-1 italic tracking-wide font-body">BASE</h4>
                         <p className="text-gray-600 text-xs">Leather<br/>Cedarwood, Amber</p>
                     </div>
                   </div>
@@ -561,25 +555,25 @@ export default function Home() {
                 
                   <div className="space-y-8 order-2 lg:order-2">
                 <div>
-                      <h3 className="text-5xl font-serif text-pink-800 mb-3" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>MOTI</h3>
-                      <p className="text-xl text-pink-600 italic">Śṛṅgāra (Love & Desire)</p>
+                      <h3 className="text-heading font-heading text-pink-800 mb-3">MOTI</h3>
+                      <p className="text-body font-body text-pink-600 italic">Śṛṅgāra (Love & Desire)</p>
                     </div>
                     
-                    <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
+                    <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
                       Moti captures the heart of desire—unexpected, alluring, and irresistible. Like the heady scents of a bustling Indian market, it draws you in with a blend of Indian rose and almond, subtly spiced with saffron. The creamy warmth of vanilla balances this intensity.
                     </p>
                     
                     <div className="grid grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-pink-200">
-                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-serif">TOP</h4>
+                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-body">TOP</h4>
                         <p className="text-gray-600 text-xs">Pink Pepper<br/>Bergamot, Lychee</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-pink-200">
-                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-serif">HEART</h4>
+                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-body">HEART</h4>
                         <p className="text-gray-600 text-xs">Jasmine, Rose<br/>Tuberose</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-pink-200">
-                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-serif">BASE</h4>
+                        <h4 className="font-bold text-pink-800 text-sm mb-1 italic tracking-wide font-body">BASE</h4>
                         <p className="text-gray-600 text-xs">Vanilla, Tonka<br/>Patchouli, Amber</p>
                     </div>
                   </div>
@@ -602,25 +596,25 @@ export default function Home() {
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                   <div className="space-y-8">
                 <div>
-                      <h3 className="text-5xl font-serif text-blue-800 mb-3" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>NEEL</h3>
-                      <p className="text-xl text-blue-600 italic">Vīra (Courage)</p>
+                      <h3 className="text-heading font-heading text-blue-800 mb-3">NEEL</h3>
+                      <p className="text-body font-body text-blue-600 italic">Vīra (Courage)</p>
                     </div>
                     
-                    <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
+                    <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
                       Neel embodies the spirit of courage and adventure—the fearless explorer who ventures into the unknown. A fresh, aquatic opening with bergamot and black pepper leads to a heart of lavender and geranium, creating a sense of calm determination.
                     </p>
                     
                     <div className="grid grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-blue-200">
-                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-serif">TOP</h4>
+                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-body">TOP</h4>
                         <p className="text-gray-600 text-xs">Bergamot<br/>Black Pepper, Grapefruit</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-blue-200">
-                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-serif">HEART</h4>
+                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-body">HEART</h4>
                         <p className="text-gray-600 text-xs">Lavender, Geranium<br/>Aquatic Accord</p>
                     </div>
                       <div className="text-center p-4 bg-white/70 rounded-lg border border-blue-200">
-                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-serif">BASE</h4>
+                        <h4 className="font-bold text-blue-800 text-sm mb-1 italic tracking-wide font-body">BASE</h4>
                         <p className="text-gray-600 text-xs">Ambroxan<br/>Patchouli, Cedarwood</p>
                     </div>
                   </div>
@@ -707,25 +701,25 @@ export default function Home() {
                 
                   <div className="space-y-8 order-2 lg:order-2">
                 <div>
-                      <h3 className="text-5xl font-serif text-green-800 mb-3" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>BAAG</h3>
-                      <p className="text-xl text-green-600 italic">Śānta (Peace & Belonging)</p>
+                      <h3 className="text-heading font-heading text-green-800 mb-3">BAAG</h3>
+                      <p className="text-body font-body text-green-600 italic">Śānta (Peace & Belonging)</p>
                     </div>
                     
-                                          <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
-                    Baag is a tribute to the family garden—a place of memories, love, and growth. Jasmine vines wrapped around old trellises, orange blossoms sweetening the air, and rich earth that holds the stories of generations. Bright notes of bergamot and jasmine reflect the freshness of a new morning, while patchouli and vanilla offer grounding comfort. Baag is the scent of home and heritage.
-                  </p>
+                    <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
+                      Baag is a tribute to the family garden—a place of memories, love, and growth. Jasmine vines wrapped around old trellises, orange blossoms sweetening the air, and rich earth that holds the stories of generations. Bright notes of bergamot and jasmine reflect the freshness of a new morning, while patchouli and vanilla offer grounding comfort. Baag is the scent of home and heritage.
+                    </p>
                   
                     <div className="grid grid-cols-3 gap-4">
                                               <div className="text-center p-4 bg-white/70 rounded-lg border border-green-200">
-                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-serif">TOP</h4>
+                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-body">TOP</h4>
                           <p className="text-gray-600 text-xs">Saffron, Mandarin<br/>Pink Pepper</p>
                     </div>
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-green-200">
-                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-serif">HEART</h4>
+                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-body">HEART</h4>
                           <p className="text-gray-600 text-xs">Jasmine, Tuberose<br/>Peony</p>
                     </div>
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-green-200">
-                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-serif">BASE</h4>
+                          <h4 className="font-bold text-green-800 text-sm mb-1 italic tracking-wide font-body">BASE</h4>
                           <p className="text-gray-600 text-xs">Musk, Vetiver<br/>Vanilla</p>
                     </div>
                   </div>
@@ -748,25 +742,25 @@ export default function Home() {
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                   <div className="space-y-8">
                 <div>
-                      <h3 className="text-5xl font-serif text-orange-800 mb-3" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>RAAS</h3>
-                      <p className="text-xl text-orange-600 italic">Hāsya (Joy)</p>
+                      <h3 className="text-heading font-heading text-orange-800 mb-3">RAAS</h3>
+                      <p className="text-body font-body text-orange-600 italic">Hāsya (Joy)</p>
                     </div>
                     
-                                          <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
+                    <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
                     Raas is the embodiment of pure joy and celebration. Inspired by dance and togetherness, it opens with sparkling notes of bergamot and grapefruit, capturing the exhilaration of a festive moment. Lavender, amber, and musk provide grounding warmth, while tonka bean and vanilla add a sweet softness—reflecting the beauty of connection and shared happiness.
                   </p>
                   
                     <div className="grid grid-cols-3 gap-4">
                                               <div className="text-center p-4 bg-white/70 rounded-lg border border-orange-200">
-                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-serif">TOP</h4>
+                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-body">TOP</h4>
                           <p className="text-gray-600 text-xs">Bergamot, Blackcurrant<br/>Mandarin</p>
                     </div>
                         <div className="text-center p-3 bg-white/70 rounded-lg border border-orange-200">
-                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-serif">HEART</h4>
+                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-body">HEART</h4>
                           <p className="text-gray-600 text-xs">Jasmine, Orange Blossom<br/>Orris</p>
                     </div>
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-orange-200">
-                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-serif">BASE</h4>
+                          <h4 className="font-bold text-orange-800 text-sm mb-1 italic tracking-wide font-body">BASE</h4>
                           <p className="text-gray-600 text-xs">Patchouli, Tonka Bean<br/>Amberwood</p>
                     </div>
                   </div>
@@ -822,34 +816,37 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="w-full">
           <div className="grid lg:grid-cols-2 gap-0 items-stretch h-[600px]">
-            {/* Left Section - Image (Full Left Side) */}
-            <div className="w-full h-full relative">
-              <Image
-                src="/images/edited01.png"
-                alt="The Discovery Set"
-                fill
-                className="object-cover"
+            {/* Left Section - Video (Full Left Side) */}
+            <div className="w-full h-full relative overflow-hidden">
+              <video
+                src="/images/Sequence01.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: 'center' }}
               />
-                  </div>
+            </div>
             
                         {/* Right Section - Text Content (Full Right Side) */}
             <div className="relative p-20 flex flex-col justify-center overflow-hidden" style={{backgroundColor: 'rgb(243, 232, 255)'}}>
               <div className="space-y-8">
                 <div>
-                                      <h2 className="text-5xl font-serif text-violet-800 mb-6 italic tracking-wide" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+                                      <h2 className="text-heading font-heading text-violet-800 mb-6 italic tracking-wide">
                       The Discovery Set
                     </h2>
                 </div>
                 
                 <div className="space-y-6">
-                  <p className="text-gray-900 text-lg leading-relaxed italic tracking-wide font-serif">
+                  <p className="text-body font-body text-gray-900 leading-relaxed italic tracking-wide">
                     From the quiet hills of Nahan to the restless lights of New York, this curated set of five perfumes captures the spirit of India's landscapes and emotions- carried across oceans to find their place in the heart of the city. Each 10 ml vial holds a chapter of the journey-Hojai, Moti, Neel, Baag, and Raas.
                   </p>
                 </div>
                 
                 <div className="pt-4">
                   <a href="/discovery" className="text-gray-900 font-medium text-lg hover:text-gray-700 transition-colors duration-300 flex items-center group">
-                    <span className="italic tracking-wide font-serif">Discover</span>
+                    <span className="italic tracking-wide font-body">Discover</span>
                     <svg 
                       className="w-6 h-6 ml-2 transform group-hover:translate-x-1 transition-transform duration-300 animate-pulse" 
                       fill="none" 
@@ -874,7 +871,7 @@ export default function Home() {
       {/* Product Promise Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-serif text-center text-gray-900 mb-16">
+          <h2 className="text-subheading font-subheading text-center text-gray-900 mb-16">
             Our Product Promise
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -916,7 +913,7 @@ export default function Home() {
       <section className="py-24 bg-gradient-to-br from-gray-50 via-purple-50 to-amber-50">
         <div className="max-w-6xl mx-auto px-8 sm:px-12 lg:px-16">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-serif text-violet-800 mb-6 italic tracking-wide" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+            <h2 className="text-heading font-heading text-violet-800 mb-6 italic tracking-wide">
               Testimonials
             </h2>
           </div>
@@ -942,7 +939,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <p className="text-gray-800 text-lg leading-relaxed mb-6 italic font-serif">
+              <p className="text-body font-body text-gray-800 leading-relaxed mb-6 italic">
                 "I love layering my perfumes using Fresh to create a unique scent. I discovered this through their blog - full of great tips!"
               </p>
               
@@ -969,7 +966,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <p className="text-gray-800 text-lg leading-relaxed mb-6 italic font-serif">
+              <p className="text-body font-body text-gray-800 leading-relaxed mb-6 italic">
                 "Packaging design is beautiful. It makes the unboxing process memorable. Also, great to receive free samples with my order."
               </p>
               
@@ -996,7 +993,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <p className="text-gray-800 text-lg leading-relaxed mb-6 italic font-serif">
+              <p className="text-body font-body text-gray-800 leading-relaxed mb-6 italic">
                 "Service is professional and efficient. Thank you for your speedy replies! In love with the Mimosa collection."
               </p>
               
@@ -1009,7 +1006,7 @@ export default function Home() {
       {/* Newsletter Section */}
       <section className="py-20 bg-gradient-to-r from-purple-900 to-amber-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif text-white mb-6">
+          <h2 className="text-subheading font-subheading text-white mb-6">
             Newsletter
           </h2>
           <p className="text-lg text-purple-100 mb-8">
@@ -1031,10 +1028,10 @@ export default function Home() {
       {/* Crafted with Care */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif text-gray-900 mb-6">
+          <h2 className="text-subheading font-subheading text-gray-900 mb-6">
             Crafted with care since 2010
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-body font-body text-gray-600">
             Immerse yourself in a world of timeless botanical scents.
           </p>
         </div>

@@ -13,6 +13,14 @@ const config: Config = {
       fontFamily: {
         cormorant: ["var(--font-cormorant)", "serif"],
         lato: ["var(--font-lato)", "sans-serif"],
+        heading: ["Cormorant Garamond", "serif"],
+        subheading: ["Cormorant Garamond", "serif"],
+        body: ["Lato", "sans-serif"],
+      },
+      fontSize: {
+        'heading': ['60px', { lineHeight: '1.2', fontWeight: '700' }],
+        'subheading': ['36px', { lineHeight: '1.3', fontWeight: '400' }],
+        'body': ['21px', { lineHeight: '1.6', fontWeight: '400' }],
       },
       colors: {
         background: "hsl(var(--background))",

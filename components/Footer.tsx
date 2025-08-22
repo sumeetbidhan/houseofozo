@@ -18,10 +18,10 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <div className="font-serif text-xl text-gray-900">House of Ozo</div>
+                <div className="font-subheading text-gray-900">House of Ozo</div>
               </div>
             </div>
-            <p className="text-gray-700 max-w-md mb-6">
+            <p className="font-body text-gray-700 max-w-md mb-6">
               From the hills of Nahan to the streets of New York, House of Ozo blends generations of Indian fragrance craftsmanship with a modern sensibility.
             </p>
             <div className="flex space-x-4">
@@ -38,20 +38,20 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg text-gray-900 mb-4">Collections</h3>
+            <h3 className="font-subheading text-gray-900 mb-4">Collections</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/products" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <Link href="/products" className="font-body text-gray-700 hover:text-gray-900 transition-colors">
                   Navarasa Collection
                 </Link>
               </li>
               <li>
-                <Link href="/products" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <Link href="/products" className="font-body text-gray-700 hover:text-gray-900 transition-colors">
                   Discovery Set
                 </Link>
               </li>
               <li>
-                <Link href="/scents" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <Link href="/scents" className="font-body text-gray-700 hover:text-gray-900 transition-colors">
                   Scent Notes
                 </Link>
               </li>
@@ -59,10 +59,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg text-gray-900 mb-4">Company</h3>
+            <h3 className="font-subheading text-gray-900 mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <Link href="/about" className="font-body text-gray-700 hover:text-gray-900 transition-colors">
                   About Us
                 </Link>
               </li>
@@ -72,7 +72,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <Link href="/about" className="font-body text-gray-700 hover:text-gray-900 transition-colors">
                   Contact
                 </Link>
               </li>
@@ -81,8 +81,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-600">© 2025, House of Ozo - All rights reserved</p>
-          <p className="text-gray-600">Powered by Next.js</p>
+          <p className="font-body text-gray-600">© 2025, House of Ozo - All rights reserved</p>
+          <p className="font-body text-gray-600">Powered by Next.js</p>
         </div>
       </div>
     </footer>

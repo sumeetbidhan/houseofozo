@@ -65,14 +65,26 @@ export default function ProductsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-amber-50">
       <Header />
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-purple-900 via-purple-800 to-purple-700">
-        <div className="absolute inset-0 bg-black/20"></div>
+      {/* Hero Section with Background Image - Extended above navbar */}
+      <section className="relative py-48 bg-gradient-to-r from-purple-900 via-purple-800 to-purple-700">
+        {/* Background Image - Extended above navbar */}
+        <div className="absolute inset-0 w-full h-full -top-20">
+          <Image
+            src="/images/02.jpg"
+            alt="Products Background"
+            fill
+            className="object-cover"
+            style={{ objectPosition: 'center' }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 via-purple-800/15 to-purple-700/20"></div>
+        </div>
+        
+        {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-serif text-white mb-6">
+          <h1 className="text-heading font-heading text-white mb-6">
             Our Fragrance Collection
           </h1>
-          <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+          <p className="text-body font-body text-purple-100 max-w-3xl mx-auto">
             Discover the essence of India through our carefully crafted perfumes, each telling a unique story of emotion and heritage.
           </p>
         </div>
@@ -105,7 +117,7 @@ export default function ProductsPage() {
                 </div>
                 
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl font-serif text-gray-900">{product.name}</CardTitle>
+                  <CardTitle className="text-body font-subheading text-gray-900">{product.name}</CardTitle>
                   <CardDescription className="text-gray-600">{product.description}</CardDescription>
                 </CardHeader>
                 
@@ -131,7 +143,7 @@ export default function ProductsPage() {
                   </div>
                   
                   <div className="flex items-center justify-between pt-4">
-                    <span className="text-2xl font-serif text-gray-900">₹{product.price}</span>
+                    <span className="text-body font-body text-gray-900">₹{product.price}</span>
                     <Button className="bg-purple-600 hover:bg-purple-700 text-white">
                       <ShoppingBag className="h-4 w-4 mr-2" />
                       Add to Cart
@@ -147,10 +159,10 @@ export default function ProductsPage() {
       {/* Discovery Set CTA */}
       <section className="py-20 bg-purple-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif text-gray-900 mb-6">
+          <h2 className="text-subheading font-subheading text-gray-900 mb-6">
             Try Our Discovery Set
           </h2>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-body font-body text-gray-700 mb-8">
             Experience all five fragrances in our curated discovery set. Each 10ml vial allows you to explore the full range of emotions and find your perfect scent.
           </p>
           <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -159,7 +171,7 @@ export default function ProductsPage() {
                 <div key={index} className="w-12 h-16 bg-gradient-to-b from-purple-200 to-purple-300 rounded"></div>
               ))}
             </div>
-            <h3 className="text-2xl font-serif text-gray-900 mb-4">Complete Navarasa Collection</h3>
+            <h3 className="text-subheading font-subheading text-gray-900 mb-4">Complete Navarasa Collection</h3>
             <p className="text-gray-600 mb-6">₹450 (Save ₹450)</p>
             <Button size="lg" className="bg-amber-800 hover:bg-amber-900 text-white px-8 py-3">
               Shop Discovery Set
