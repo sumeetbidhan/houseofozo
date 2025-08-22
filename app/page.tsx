@@ -42,27 +42,27 @@ export default function Home() {
      },
      {
       src:"./images/edited01.png",
-       alt: "Luxury perfume background 1"
+       alt: "Luxury perfume background 2"
      },
      {
       src:"./images/01.jpg",
-       alt: "Luxury perfume background 1"
+       alt: "Luxury perfume background 3"
      },
      {
-      src:"./images/image01.jpg",
-       alt: "Luxury perfume background 1"
+      src:"./images/image01.JPG",
+       alt: "Luxury perfume background 4"
      },
      {
       src:"./images/image02.jpg",
-       alt: "Luxury perfume background 1"
+       alt: "Luxury perfume background 5"
      },
      {
       src:"./images/img.jpg",
-       alt: "Luxury perfume background 1"
+       alt: "Luxury perfume background 6"
      },
      {
       src:"./images/img2.jpg",
-       alt: "Luxury perfume background 1"
+       alt: "Luxury perfume background 7"
      }
   ]
 

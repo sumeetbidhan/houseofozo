@@ -106,7 +106,7 @@ export default function CollectionsPage() {
       {/* Page Header */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/hero-mandala-tunnel.png" alt="Royal Mandala Pattern" fill className="object-cover" />
+          <Image src="/images/background.png" alt="Royal Background Pattern" fill className="object-cover" />
           <div className="absolute inset-0 bg-white/60"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
