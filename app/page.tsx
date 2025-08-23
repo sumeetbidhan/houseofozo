@@ -52,10 +52,10 @@ export default function Home() {
       src:"./images/image01.JPG",
        alt: "Luxury perfume background 4"
      },
-     {
-      src:"./images/image02.jpg",
-       alt: "Luxury perfume background 5"
-     },
+     // {
+     //  src:"./images/image02.jpg",
+     //   alt: "Luxury perfume background 5"
+     // },
      {
       src:"./images/img.jpg",
        alt: "Luxury perfume background 6"
