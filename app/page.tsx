@@ -48,11 +48,19 @@ export default function Home() {
       src:"./images/01.jpg",
        alt: "Luxury perfume background 3"
      },
-     // {
-     //  src:"./images/image01.JPG",
-     //   alt: "Luxury perfume background 4"
-     // },
+// <<<<<<< Gaurav
+//      // {
+//      //  src:"./images/image01.JPG",
+//      //   alt: "Luxury perfume background 4"
+//      // },
    
+// =======
+//      {
+//       src:"./images/image01.JPG",
+//        alt: "Luxury perfume background 4"
+//      },
+//      // {
+// >>>>>>> main
      //  src:"./images/image02.jpg",
      //   alt: "Luxury perfume background 5"
      // },
