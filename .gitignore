@@ -47,8 +47,10 @@ public/images/Sequence01.mp4
 public/images/C0238.MP4
 *.MP4
 *.mp4
-*.avi
+
+# Large media files
 *.mov
+*.avi
+*.mkv
 *.wmv
 *.flv
-*.webm
