@@ -36,11 +36,11 @@ export default function Home() {
   ])
 
   const heroImages = [
+    
     {
       src:"./images/02.jpg",
        alt: "Luxury perfume background 1"
-     },
-     {
+     },{
       src:"./images/edited01.png",
        alt: "Luxury perfume background 2"
      },
@@ -52,20 +52,18 @@ export default function Home() {
       src:"./images/image01.JPG",
        alt: "Luxury perfume background 4"
      },
-     // {
-     //  src:"./images/image02.jpg",
-     //   alt: "Luxury perfume background 5"
-     // },
      {
-      src:"./images/img.jpg",
+      src:"./images/image02.JPG",
+       alt: "Luxury perfume background 5"
+     },{
+      src:"./images/img.JPG",
        alt: "Luxury perfume background 6"
      },
      {
-      src:"./images/img2.jpg",
+      src:"./images/img2.JPG",
        alt: "Luxury perfume background 7"
-     }
+     },
   ]
-
   // Auto-advance slideshow
   useEffect(() => {
     const timer = setInterval(() => {
