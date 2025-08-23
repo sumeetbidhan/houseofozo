@@ -85,16 +85,31 @@ export default function DiscoveryPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-6xl font-serif text-violet-800 mb-6 italic tracking-wide" style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
+      {/* Hero Section with Video Background */}
+      <section className="relative py-20 overflow-hidden">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            src="/images/Sequence01.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center' }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-50/80 via-gray-100/70 to-gray-50/80"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-heading font-heading text-violet-800 mb-6 italic tracking-wide">
             The Discovery Set
           </h1>
-          <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed italic tracking-wide font-serif">
+          <p className="text-body font-body text-gray-700 max-w-4xl mx-auto leading-relaxed italic tracking-wide">
             From the quiet hills of Nahan to the restless lights of New York, this curated set of five perfumes captures the spirit of India's landscapes and emotions—carried across oceans to find their place in the heart of the city.
           </p>
-          <p className="text-lg text-gray-600 mt-4 italic tracking-wide font-serif">
+          <p className="text-body font-body text-gray-600 mt-4 italic tracking-wide">
             Each 10 ml vial holds a chapter of the journey—Hojai, Moti, Neel, Baag, and Raas.
           </p>
         </div>
@@ -115,29 +130,29 @@ export default function DiscoveryPage() {
                     {/* Text Content */}
                     <div className={`space-y-8 ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
                       <div>
-                        <h2 className={`text-5xl font-serif ${colors.text} mb-3`} style={{fontFamily: 'Edu NSW ACT Cursive, cursive'}}>
-                          {perfume.name}
-                        </h2>
-                        <p className={`text-xl ${colors.text} italic opacity-80`}>
-                          {perfume.emotion}
-                        </p>
+                                    <h2 className={`text-heading font-heading ${colors.text} mb-3`}>
+              {perfume.name}
+            </h2>
+                                    <p className={`text-body font-body ${colors.text} italic opacity-80`}>
+              {perfume.emotion}
+            </p>
                       </div>
                       
-                      <p className="text-gray-700 text-lg leading-relaxed italic tracking-wide font-serif">
-                        {perfume.description}
-                      </p>
+                                  <p className="text-body font-body text-gray-700 leading-relaxed italic tracking-wide">
+              {perfume.description}
+            </p>
                       
                       <div className="grid grid-cols-3 gap-4">
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-gray-200">
-                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-serif`}>TOP</h4>
+                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-body`}>TOP</h4>
                           <p className="text-gray-600 text-xs">{perfume.topNotes.join(', ')}</p>
                         </div>
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-gray-200">
-                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-serif`}>HEART</h4>
+                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-body`}>HEART</h4>
                           <p className="text-gray-600 text-xs">{perfume.heartNotes.join(', ')}</p>
                         </div>
                         <div className="text-center p-4 bg-white/70 rounded-lg border border-gray-200">
-                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-serif`}>BASE</h4>
+                          <h4 className={`font-bold ${colors.text} text-sm mb-1 italic tracking-wide font-body`}>BASE</h4>
                           <p className="text-gray-600 text-xs">{perfume.baseNotes.join(', ')}</p>
                         </div>
                       </div>
@@ -194,10 +209,10 @@ export default function DiscoveryPage() {
       {/* CTA Section */}
       <section className="py-20 bg-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-serif text-gray-900 mb-6">
+          <h2 className="text-subheading font-subheading text-gray-900 mb-6">
             Experience the Journey
           </h2>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-body font-body text-gray-700 mb-8">
             Each fragrance tells a story, each scent carries a memory. Discover the essence of India's emotions in this carefully curated collection.
           </p>
           <button className="bg-gray-900 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-800 transition-colors duration-300">

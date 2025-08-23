@@ -25,7 +25,7 @@ export default function Header({ cartItems = [], onCartClick }: HeaderProps) {
   return (
     <>
       {/* Top Banner */}
-      <div className="bg-purple-100 text-purple-900 text-center py-2 text-sm font-medium">
+      <div className="bg-purple-100 text-purple-900 text-center py-2 text-sm font-body font-medium">
         Buy now, pay later, Klarna available at checkout
       </div>
 
@@ -43,22 +43,22 @@ export default function Header({ cartItems = [], onCartClick }: HeaderProps) {
                 <Menu className="h-6 w-6" />
               </button>
               <nav className="hidden md:flex space-x-8">
-                <Link href="/products" className={`transition-colors ${
+                <Link href="/products" className={`font-body transition-colors ${
                   isScrolled ? 'text-gray-700 hover:text-purple-600' : 'text-white hover:text-amber-300 drop-shadow-lg'
                 }`}>
                   Products
                 </Link>
-                <Link href="/scents" className={`transition-colors ${
+                <Link href="/scents" className={`font-body transition-colors ${
                   isScrolled ? 'text-gray-700 hover:text-purple-600' : 'text-white hover:text-amber-300 drop-shadow-lg'
                 }`}>
                   Scents
                 </Link>
-                <Link href="/about" className={`transition-colors ${
+                <Link href="/about" className={`font-body transition-colors ${
                   isScrolled ? 'text-gray-700 hover:text-purple-600' : 'text-white hover:text-purple-600 drop-shadow-lg'
                 }`}>
                   About
                 </Link>
-                <Link href="/heritage" className={`transition-colors ${
+                <Link href="/heritage" className={`font-body transition-colors ${
                   isScrolled ? 'text-gray-700 hover:text-purple-600' : 'text-white hover:text-amber-300 drop-shadow-lg'
                 }`}>
                   Heritage
