@@ -65,15 +65,15 @@ export default function Home() {
        alt: "Luxury perfume background 4"
      },
       {
-       src:"./images/image02.jpg",
+       src:"./images/image02.JPG",
         alt: "Luxury perfume background 5"
       },
      {
-      src:"./images/img.jpg",
+      src:"./images/img.JPG",
        alt: "Luxury perfume background 6"
      },
      {
-      src:"./images/img2.jpg",
+      src:"./images/img2.JPG",
        alt: "Luxury perfume background 7"
      }
   ]
@@ -645,7 +645,7 @@ export default function Home() {
         {/* Full Screen Video Background */}
         <div className="absolute inset-0 w-full h-full">
               <video
-                // src="/images/Sequence01.mp4"
+                src="/images/Sequence01.mp4"
                 autoPlay
                 loop
                 muted
